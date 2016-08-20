@@ -1,0 +1,28 @@
+.data-input-wrapper {
+	.file-upload label {
+		color: #666;
+		margin-right: 15px;
+	}
+	.file-upload input[type=file] {
+		display: inline-block;
+	}
+	.file-upload, .or-separator, .url-input {
+		text-align: center;
+		@media (min-width: $screen-md-breakpoint) {
+			text-align: left;
+		}
+	}
+	.or-separator {
+		margin: 10px 0;
+	    font-weight: bold;
+	    font-style: italic;
+	    color: #999;
+	    font-size: 14px;
+	    text-transform: uppercase;
+	    position: relative;
+	    top: 3px;
+	    @media (min-width: $screen-md-breakpoint) {
+			margin: 0;
+		}
+	}
+}

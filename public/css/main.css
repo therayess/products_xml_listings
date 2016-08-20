@@ -1,0 +1,82 @@
+.data-input-wrapper .file-upload label {
+  color: #666;
+  margin-right: 15px; }
+
+.data-input-wrapper .file-upload input[type=file] {
+  display: inline-block; }
+
+.data-input-wrapper .file-upload, .data-input-wrapper .or-separator, .data-input-wrapper .url-input {
+  text-align: center; }
+  @media (min-width: 992px) {
+    .data-input-wrapper .file-upload, .data-input-wrapper .or-separator, .data-input-wrapper .url-input {
+      text-align: left; } }
+
+.data-input-wrapper .or-separator {
+  margin: 10px 0;
+  font-weight: bold;
+  font-style: italic;
+  color: #999;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  top: 3px; }
+  @media (min-width: 992px) {
+    .data-input-wrapper .or-separator {
+      margin: 0; } }
+
+.products-listings {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  margin-top: 20px; }
+  .products-listings .product-item {
+    text-align: center; }
+    .products-listings .product-item .product-img {
+      width: 100%; }
+    .products-listings .product-item .product-categories {
+      text-align: left;
+      margin-top: 10px; }
+    .products-listings .product-item .product-category {
+      font-size: 10px;
+      font-weight: bold;
+      color: #a94442;
+      margin-left: 5px; }
+    .products-listings .product-item .product-title {
+      color: #337ab7; }
+    .products-listings .product-item .product-id {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 12px;
+      color: #777; }
+    .products-listings .product-item .product-description {
+      color: #333;
+      font-size: 14px;
+      margin-top: 10px;
+      text-align: left; }
+      .products-listings .product-item .product-description .desc {
+        font-weight: bold;
+        font-size: 12px;
+        display: block;
+        color: #999; }
+    .products-listings .product-item .product-price {
+      background-color: #fcf8e3;
+      padding: 10px; }
+      @media (min-width: 992px) {
+        .products-listings .product-item .product-price {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%; } }
+    .products-listings .product-item .product-currency {
+      font-size: 10px;
+      font-style: italic;
+      color: #999; }
+    @media (min-width: 992px) {
+      .products-listings .product-item .panel {
+        height: 500px;
+        overflow: hidden;
+        position: relative; } }
+  .products-listings .inline-flow {
+    width: auto;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 15px; }
