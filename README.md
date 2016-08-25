@@ -1,6 +1,7 @@
 Setup
 ---
 1. install dependencies: npm install
+1.1 UPDATE: there seems to be a problem with the default npm registry and hence packages are not getting installed, if that happens please use this commmand instead: npm install --registry http://registry.npmjs.org/
 2. compile and build: npm run build
 3. start development server: npm start
 4. open http://localhost:3000/ in your browser and the app should work
