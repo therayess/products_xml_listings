@@ -1,3 +1,7 @@
+About
+---
+An assignment implementation which is an app that loads and displays products from an .xml file
+
 Setup
 ---
 1. install dependencies: npm install
